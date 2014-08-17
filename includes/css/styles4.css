@@ -89,7 +89,7 @@ ul.unstyled {
 	/* VERTICAL HORIZONTAL */
     padding: 14px 14px;
     color: white;
-    margin-right: 300px;
+    margin-right: 250px;
     text-align: center;
     
     
@@ -245,8 +245,9 @@ hr {
     padding-bottom: 6px;
     color: white;
     padding-right: 35px;
-    
-	}
+    margin-right: auto;
+    margin-left: auto;
+    }
 
 
 	
@@ -266,5 +267,13 @@ hr {
 	#slide3 {
 	    background: url("../../images/ocean_large.jpg") top center no-repeat;
 	}
+	.navbar-brand {
+	/* VERTICAL HORIZONTAL */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+    padding-right: 35px;
+    margin-right: 500px;
+    }
 
 }
