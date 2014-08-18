@@ -26,49 +26,94 @@
 	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
 	    <!-- container class makes everything
         centered with right and left margins -->
-        <div id="main">
-        
-        <!-- navbar-fixed-top makes the navbar follow the user
-        (Im not going to use this for now maybe later)-->
-        <div id="banner">
-        	<div class="container">
-        	<span class="glyphicon glyphicon-phone"> Call Us (512) 913-8295 </span> 
-        	</div>
-        	
-        </div><!-- end banner -->
-        <div class="navbar-background">
-        <div class="navbar">
-            <div class="container">
-                                                           <!-- this is targeting the navbar-responsive-collapse class -->
-                <button class="navbar-toggle" data-target=".navbar-responsive-collapse"
-                	data-toggle="collapse" type="button">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+        <div id="main">     
+	        <!-- navbar-fixed-top makes the navbar follow the user
+	        (Im not going to use this for now maybe later)-->
+	        <div id="banner">
+	        	<div class="container">
+	        	<span class="glyphicon glyphicon-phone"> Call Us (512) 913-8295 </span> 
+	        	</div>
+	        	
+	        </div><!-- end banner -->
+	        <div class="navbar-background">
+		        <div class="navbar">
+		            <div class="container">
+		                                                           <!-- this is targeting the navbar-responsive-collapse class -->
+		                <button class="navbar-toggle" data-target=".navbar-responsive-collapse"
+		                	data-toggle="collapse" type="button">
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		
+		                </button>
+		            <a class="navbar-brand" href="/">Gisel House Keeping</a>
+		             
+		                   <div class="nav-collapse collapse navbar-responsive-collapse">
+		
+		                        <ul class="nav navbar-nav">
+		                            <li class="active">
+		                                <a href="#">HOME</a>
+		                            </li>
+		                            <li class="">
+		                                <a href="#">ABOUT US</a>
+		                            </li>
+		                            <li class="">
+		                                <a href="#">CONTACT US</a>
+		                            </li>
+		
+		                        </ul>
+		                    </div><!-- end nav-collapse -->
+		                
+		            </div><!-- end container-->
+		
+		        </div><!-- end navbar -->
+	        </div><!-- end navbar-background -->
+            <div id="carousel-background">
+                <div class="container">
+                	
+                	<h1 class="carousel-heading"></h1>
+                    <div class="carousel slide" id="myCarousel">
 
-                </button>
-            <a class="navbar-brand" href="/">Gisel House Keeping</a>
-             
-                   <div class="nav-collapse collapse navbar-responsive-collapse">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                            <li data-slide-to="1" data-target="#myCarousel"></li>
+                            <li data-slide-to="2" data-target="#myCarousel"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active" id="slide1">
+                                <div class="carousel-caption">
+                                    <h4>Mateo 5:14</h4>
+                                    <p>Vosotros sois la luz del mundo. Una ciudad situada sobre un monte no se puede ocultar;</p>
+                                </div><!-- end carousel-caption-->
+                            </div><!-- end item -->
+                            <div class="item" id="slide2">
+                                <div class="carousel-caption">
+                                    <h4>Salmos 42:1</h4>
+                                    <p>Como el ciervo brama por las corrientes de las aguas, así clama por ti, oh Dios, el alma mía.</p>
+                                </div><!-- end carousel-caption-->
+                            </div><!-- end item -->
+                            <div class="item" id="slide3">
+                                <div class="carousel-caption">
+                                    <h4>Habacuc 2:14</h4>
+                                    <p>Pues la tierra se llenará del conocimiento de la gloria del SEÑOR como las aguas cubren el mar.</p>
+                                </div><!-- end carousel-caption-->
+                            </div><!-- end item -->
+                        </div><!-- end carousel inner -->
+                        <!-- Controls -->
+                        <a class="left carousel-control" data-slide="prev" href="#myCarousel">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" data-slide="next" href="#myCarousel">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div><!-- end myCarousel-->
+                </div><!-- end carosel container -->
 
-                        <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="#">HOME</a>
-                            </li>
-                            <li class="">
-                                <a href="#">ABOUT US</a>
-                            </li>
-                            <li class="">
-                                <a href="#">CONTACT US</a>
-                            </li>
+                </div><!-- end carousel-background -->
 
-                        </ul>
-                    </div><!-- end nav-collapse -->
-                
-            </div><!-- end container-->
-
-        </div><!-- end navbar -->
-        </div>    
+        </div><!-- end main -->
    
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 		
@@ -84,6 +129,6 @@
 	<!-- Custom JS -->
 	<script src="includes/js/script.js"></script>
 	
-	</body>
+</body>
 </html>
 
