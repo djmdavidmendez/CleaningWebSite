@@ -16,6 +16,10 @@ Notes:	 Hand coded for Udemy.com
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	background-image: url("../../images/agsquare.png")
+}
 #top-banner .header-logo {
     text-align: center;
     font-size: 26px;
