@@ -42,7 +42,7 @@ html {
 	
 }
 footer {
-    background: #333;
+    background: #393A8C;
     color: #eee;
     font-size: 11px;
     padding: 20px;
@@ -188,7 +188,7 @@ ul.unstyled {
 #content-heading-flag {
 	text-align: center;
 	color: white;
-	background: #F08891;
+	background: #00C1C1;
 	padding-bottom: 7px;
 	margin-bottom: 40px;
 
@@ -201,15 +201,26 @@ ul.unstyled {
 	padding-bottom: 20px;
 
 }
+/* --------------------------------------
+   Panel configuration
+   -------------------------------------- */
 
+.panel {
+	
+	background-color:#00003E;
+	color: white;
+	
+	
+}
 .panel-background {
 	background-image: url("../../images/agsquare.png");
 }
 .panel-heading {
-	background-color: #393A8C ;
+	background-color: #3F42C5;
 	color: white;
 	
 }
+
 .guarantee-background {
 	background: url("../../images/vac_badge.jpg") top center no-repeat; 
 	color: black;
@@ -242,7 +253,6 @@ hr {
 @media (max-width: 480px) {
 
 }
-
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 	#myCarousel .item { height: 310px; }
@@ -305,5 +315,8 @@ hr {
     padding-right: 35px;
     margin-right: 500px;
     }
+    .secondary-button {
+       	margin-top: px;
+	}
 
 }
