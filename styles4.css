@@ -18,7 +18,7 @@ Notes:	 Hand coded for Udemy.com
 }
 
 html {
-	background-image: url("../../images/agsquare.png")
+	background-image: url('images/agsquare.png')
 }
 #top-banner .header-logo {
     text-align: center;
@@ -48,10 +48,10 @@ footer {
     padding: 20px;
 }
 .tiled-background {
-	background-image: url("../../images/agsquare.png")
+	background-image: url('images/agsquare.png')
 }
 #main {
-	background-image: url("../../images/agsquare.png")
+	background-image: url('images/agsquare.png')
 }
 /* --------------------------------------
    Typography
@@ -74,6 +74,11 @@ ul.unstyled {
     list-style: none;
     padding: 0;
 }
+.red-number{
+	border: thin black solid;
+	color: red;
+	padding: 20px;
+}
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -94,16 +99,15 @@ ul.unstyled {
 #crumb-trail {
 	color: white;
 	background: #00C1C1;
-	padding-bottom: 7px;
-	margin-bottom: 7px;
+	padding: 2px 0px;
 
 	
 }
 #crumb-trail > h4 > a{
 	color: white;
 	background: #00C1C1;
-	padding-bottom: 7px;
-	margin-bottom: 7px;
+	padding: 12px 0px;
+
 
 	
 }
@@ -119,7 +123,7 @@ ul.unstyled {
     padding: 0px 0px;
     color: white;
     margin: 25px 0px;
-    margin-right: 130px;
+    margin-right: 195px;
     text-align: center;
   
     
@@ -146,6 +150,8 @@ ul.unstyled {
 .navbar-nav > li > a:focus {
     color: white;
     padding: 25px 12px;
+    
+    
 }
 .navbar-nav > li > a:hover,
 .navbar-nav > .active > a:hover  {
@@ -156,13 +162,14 @@ ul.unstyled {
     navbar-toggle
    -------------------------------------- */
 .navbar-toggle {
+	margin-top: 15px;
 	
 	
 }
 .navbar-toggle:hover,
 .navbar-toggle:focus {
     background-color: #393A8C;
-   
+       
 }
 .navbar-nav .navbar-toggle .icon-bar {
     background-color: black;
@@ -171,12 +178,10 @@ ul.unstyled {
     navabar-responsive collapse
    -------------------------------------- */
 .navbar-responsive-collapse > button{
-	margin-top: 20px;
+	
 	
 }
 #hidden-navigation-button{
-	padding-top: 30px;
-	margin-top: 50px;
 }
 /* --------------------------------------
     body
@@ -190,7 +195,7 @@ ul.unstyled {
 	color: white;
 }
 #carousel-background {
-    background-image: url("../../images/agsquare.png");
+    background-image: url('images/agsquare.png');
 
     margin: 0;
 }
@@ -208,7 +213,7 @@ ul.unstyled {
 }
 #myCarousel .item { height: 400px; }
 #slide1 {
-    background: url("../../images/livroom_medium.jpg") top center no-repeat;
+    background: url('images/livroom_medium.jpg') no-repeat center top;
 }
 
 #slide2 {
@@ -231,7 +236,7 @@ ul.unstyled {
 
 }
 #company-name-heading{
-	background-image: url("../../images/agsquare.png");
+	background-image: url('images/agsquare.png');
 	text-align: center;
 	color: black;
 	
@@ -242,14 +247,13 @@ ul.unstyled {
    -------------------------------------- */
 
 .panel {
-	
 	background-color:#00003E;
 	color: white;
 	
 	
 }
 .panel-background {
-	background-image: url("../../images/agsquare.png");
+	background-image: url('images/agsquare.png');
 }
 .panel-heading {
 	background-color: #3F42C5;
@@ -258,11 +262,11 @@ ul.unstyled {
 }
 
 .guarantee-background {
-	background: url("../../images/vac_badge.jpg") top center no-repeat; 
+	background: url('images/vac_badge.jpg') no-repeat center top; 
 	color: black;
 }
 .col-sm-4 feature {
-	background-image: url("../../images/agsquare.png");	
+	background-image: url('images/agsquare.png');	
 }
 /* --------------------------------------
    Global Styles
@@ -287,8 +291,8 @@ hr {
 @media (max-width: 768px) {
 	#myCarousel .item { height: 310px; }
 	#slide1 {
-	    background: url("../../images/livroom_small.jpg") top center no-repeat;
-	}
+	    background: url('images/livroom_small.jpg') no-repeat center top;
+}
 	
 	#slide2 {
 	    background: url("../../images/stream_small.jpg") top center no-repeat;
@@ -316,10 +320,6 @@ hr {
     margin-right: auto;
     margin-left: auto;
     }
-    .navbar-responsive-collapse > button{
-    padding-top: 40px;
-	margin-top: 20px;
-	}
 
 
 
@@ -330,8 +330,8 @@ hr {
 @media (min-width: 1200px) {
 	#myCarousel .item { height: 500px; }
 	#slide1 {
-	    background: url("../../images/livroom_large.jpg") top center no-repeat;
-	}
+	    background: url('images/livroom_large.jpg') no-repeat center top;
+}
 	
 	#slide2 {
 	    background: url("../../images/stream_large.jpg") top center no-repeat;
@@ -345,8 +345,5 @@ hr {
     color: white;
     margin-right: 500px;
     }
-    .secondary-button {
-       	margin-top: px;
-	}
 
 }
