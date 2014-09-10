@@ -37,10 +37,6 @@ html {
     margin-top: 15px;
 }
 
-#features img {
-
-	
-}
 footer {
     background: #393A8C;
     color: #eee;
@@ -243,14 +239,18 @@ ul.unstyled {
 
 }
 /* --------------------------------------
+   Thumbnail widgets
+   -------------------------------------- */
+.thumbnail {
+
+}
+/* --------------------------------------
    Panel configuration
    -------------------------------------- */
 
 .panel {
 	background-color:#00003E;
 	color: white;
-	
-	
 }
 .panel-background {
 	background-image: url('images/agsquare.png');

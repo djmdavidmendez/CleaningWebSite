@@ -3,9 +3,9 @@
 My Custom CSS
 =============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+Author:  David Mendez
+Updated: September 2014
+Notes:	 Hand coded for Gisel House Keeping
 
 */
 
@@ -25,7 +25,7 @@ html {
     font-size: 26px;
 }
 #banner {
-	background-color: #3B4043;
+	background-color: #1A0044;
 	color: white;
 	padding: 14px 14px;
 }
@@ -59,14 +59,11 @@ footer {
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
-	
 }
-
  .well .page-header {
 	margin-top: 0;
 	
 }
-
 .well .page-header {
 	margin-top: 0;
 }
@@ -74,54 +71,45 @@ ul.unstyled {
     list-style: none;
     padding: 0px;
 }
-.row > .col-sm-8 ul > .unordered-list > ul{	
-	
-}
 .red-number {
 	border: thin gray dashed;
 	color: maroon;
 	padding: 15px;
 }
+
 /* --------------------------------------
    Navbar
    -------------------------------------- */
 
 .navbar {
     background-color: #40439B;
-    margin: 0px;
-    
-    
+    margin: 0px;   
 }
 .navbar-nav a{
     color: white;
 }
 .navbar-background {
 	background-color: #40439B;
-	
 }
 #crumb-trail {
 	color: white;
 	background: #00C1C1;
 	padding-bottom: 7px;
 	margin-bottom: 7px;
-
-	
 }
 #crumb-trail > h4 > a{
 	color: white;
 	background: #00C1C1;
 	padding-bottom: 7px;
 	margin-bottom: 7px;
-
-	
 }
 .crumb-trail-links {
 	color: white;
 }
-/* --------------------------------------
-    navbar-brand 
-   -------------------------------------- */
 
+/* --------------------------------------
+    navbar-brand LOGO in bootstrap
+   -------------------------------------- */
 .navbar-brand {
 	/* VERTICAL HORIZONTAL */
     padding: 0px 0px;
@@ -129,18 +117,13 @@ ul.unstyled {
     margin: 25px 0px;
     text-align: center;
     margin-right: 20px;
-  
-    
-    
-    
-
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
     color: white;
- 
 }
 /* --------------------------------------
+    Navigation
     navbar-nav 
    -------------------------------------- */
 .navbar-nav > .active >a,
@@ -159,14 +142,12 @@ ul.unstyled {
 .navbar-nav > li > a:hover,
 .navbar-nav > .active > a:hover  {
 	color: #FFC40D;
-	
 }
+
 /* --------------------------------------
     navbar-toggle
    -------------------------------------- */
-.navbar-toggle {
-	
-	
+.navbar-toggle {	
 }
 .navbar-toggle:hover,
 .navbar-toggle:focus {
@@ -199,13 +180,11 @@ ul.unstyled {
 	color: white;
 }
 #carousel-background {
-    background-image: url("../../images/agsquare.png");
-
-    margin: 0;
+    background: #1A0044;
 }
 #myCarousel {
 	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 }
 
 .carousel-caption {
@@ -243,8 +222,17 @@ ul.unstyled {
 	background-image: url("../../images/agsquare.png");
 	text-align: center;
 	color: black;
-	
-
+}
+/* --------------------------------------
+   Thumbnails
+   -------------------------------------- */
+.thumbnail{
+	background-color: #1A0044;
+	color: white;
+	margin-bottom: 20px;
+}
+.thumbnail .caption {
+	color: white;
 }
 /* --------------------------------------
    Panel configuration
