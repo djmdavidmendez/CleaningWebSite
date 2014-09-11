@@ -27,7 +27,12 @@ html {
 #banner {
 	background-color: #1A0044;
 	color: white;
-	padding: 14px 14px;
+}
+#call-us-top {
+	margin: 16px 0px 14px 0px;
+}
+#social-icons {
+	margin: 12px 0px 12px 0px;
 }
 /* --------------------------------------
    Layout
